@@ -14,6 +14,9 @@ public static class Test
 {
     public static void Main()
     {
-        Console.WriteLine("Adding 2+2 -> {0} using version: {1}",NativeMethods.my_add(2,2),NativeMethods.my_version());
+        Console.WriteLine("Adding 2+2 -> {0} using version: {1}",
+            NativeMethods.my_add(2,2),
+            NativeMethods.my_version()
+        );
     }
 }
