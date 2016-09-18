@@ -19,18 +19,22 @@ commons.my_solution = function(name)
     filter {}
 end
 
-commons.cpp_dll = function(name)
+commons.cpp_dll = function(name,source_path)
     project(name)
     kind "SharedLib"
     language "C++"
     -- default config
     commons.defines()
+
+    files(path.join(source_path,'**.cpp'))
+    files(path.join(source_path,'**.h'))
 end
 
-commons.cs_executable = function(name)
+commons.cs_executable = function(name,source_path)
     project(name)
     kind "ConsoleApp"
     language "C#"
+    files(path.join(source_path,'**.cs'))
 end
 
 return commons
