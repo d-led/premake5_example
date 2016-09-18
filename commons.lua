@@ -13,7 +13,7 @@ commons.my_solution = function(name)
 
     filter "configurations:Release"
         architecture "x86_64"
-        defines { "NDEBUG" }
+        defines { "DEBUG" }
         flags { "Symbols" }
         optimize "On"
     filter {}
