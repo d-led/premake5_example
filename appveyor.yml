@@ -1,0 +1,6 @@
+version: 1.0.{build}
+build_script:
+- cmd: >-
+    gen_vs2015.bat
+
+    build_and_run.bat

@@ -1,5 +1,7 @@
 A minimalistic premake5 example.
 
+[![Build status](https://ci.appveyor.com/api/projects/status/8a3ngdxxbt9qbbsn?svg=true)](https://ci.appveyor.com/project/d-led/premake5-example)
+
 Structure
 =========
 
